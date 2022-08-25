@@ -9,10 +9,10 @@ import UIKit
 
 extension UIFont {
 
-    private class MyDummyClass {}
+    private class BundleLocatorClass {}
 
     static func loadFontWith(name: String) {
-        let frameworkBundle = Bundle(for: MyDummyClass.self)
+        let frameworkBundle = Bundle(for: BundleLocatorClass.self)
         let pathForResourceString = frameworkBundle.path(forResource: name, ofType: "ttf")
         let fontData = NSData(contentsOfFile: pathForResourceString!)
         let dataProvider = CGDataProvider(data: fontData!)

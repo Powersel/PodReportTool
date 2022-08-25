@@ -45,7 +45,6 @@ final public class RokuReportToolViewController: RokuBaseViewController {
     public override func viewDidLoad() {
         super.viewDidLoad()
         
-        UIFont.loadMyFonts
         configureUI()
         viewLogic.delegate = self
     }
@@ -102,34 +101,17 @@ private extension RokuReportToolViewController {
     }
     
     private func configureFonts() {
+        UIFont.loadMyFonts
+        
 //        let localBundle = Bundle(for: type(of: self))
-//
 //            let aaa = UIFont(name: "Gotham-Light", size: 12.0)
 //            let bbb = UIFont(name: "Gotham-Medium-Lat", size: 12.0)
 //            let ccc = UIFont(name: "Gotham-BookItalic", size: 12.0)
 //            let ddd = UIFont(name: "Gotham-Book-Lat", size: 12.0)
 //            let eee = UIFont(name: "Gotham-Bold-Lat", size: 12.0)
-//
-//        print(localBundle)
     }
     
     private func configureLabels() {
-        // ModelData object uses original Roku app
-        //        guard let box = modelData.getSelectedBox() else {
-        //            return
-        //        }
-        
-//        let controllerTitle = "Issue report tool"
-//        let naviTitle = NSLocalizedString(controllerTitle,
-//                                          comment: "Issue report screen title")
-//        navigationController?.title = naviTitle
-        
-//        issueIDLabel.textAlignment = .left
-//        issueIDLabel.textColor = .white
-//        let fetchingTitle = NSLocalizedString("Fetching Issue ID...",
-//                                              comment: "A/B screenm issue id title")
-//        updateIssueIDLabelText(with: fetchingTitle)
-        
         infoLabel.textAlignment = .right
         let infoLabelTitle = NSLocalizedString("*Required",
                                                comment: "Info label title, in Issue report screen")
