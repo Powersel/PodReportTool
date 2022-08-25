@@ -1,0 +1,6 @@
+framework module RockReportTool {
+  umbrella header "RockReportTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

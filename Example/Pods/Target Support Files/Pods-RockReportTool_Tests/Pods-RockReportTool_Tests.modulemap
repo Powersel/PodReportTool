@@ -1,0 +1,6 @@
+framework module Pods_RockReportTool_Tests {
+  umbrella header "Pods-RockReportTool_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

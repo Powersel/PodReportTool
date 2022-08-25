@@ -1,0 +1,61 @@
+{
+  "name": "RockReportTool",
+  "version": "0.1.0",
+  "summary": "A short description of RockReportTool.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Powersel/PodReportTool.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sergiy.Shevchuk": "Sergiy.Shevchuk@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/Powersel/PodReportTool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "RockReportTool/Classes/**/*",
+  "resources": [
+    "Resources/**/*.{xib,xcassets,ttf}"
+  ],
+  "frameworks": [
+    "UIKit",
+    "AVFoundation"
+  ],
+  "dependencies": {
+    "AWSCore": [
+
+    ],
+    "AWSCognitoIdentityProvider": [
+
+    ],
+    "AWSCognitoIdentityProviderASF": [
+
+    ],
+    "AWSAuthCore": [
+
+    ],
+    "AWSMobileClient": [
+
+    ],
+    "CryptoSwift": [
+
+    ],
+    "CocoaLumberjack/Swift": [
+
+    ],
+    "SWXMLHash": [
+
+    ],
+    "SwiftyJSON": [
+
+    ],
+    "KeychainAccess": [
+
+    ]
+  }
+}

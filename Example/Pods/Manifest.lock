@@ -1,0 +1,69 @@
+PODS:
+  - AWSAuthCore (2.27.12):
+    - AWSCore (= 2.27.12)
+  - AWSCognitoIdentityProvider (2.27.12):
+    - AWSCognitoIdentityProviderASF (= 2.27.12)
+    - AWSCore (= 2.27.12)
+  - AWSCognitoIdentityProviderASF (2.27.12):
+    - AWSCore (= 2.27.12)
+  - AWSCore (2.27.12)
+  - AWSMobileClient (2.27.12):
+    - AWSAuthCore (= 2.27.12)
+    - AWSCognitoIdentityProvider (= 2.27.12)
+    - AWSCognitoIdentityProviderASF (= 2.27.12)
+    - AWSCore (= 2.27.12)
+  - CocoaLumberjack/Core (3.7.4)
+  - CocoaLumberjack/Swift (3.7.4):
+    - CocoaLumberjack/Core
+  - CryptoSwift (1.5.1)
+  - KeychainAccess (4.2.2)
+  - RockReportTool (0.1.0):
+    - AWSAuthCore
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSMobileClient
+    - CocoaLumberjack/Swift
+    - CryptoSwift
+    - KeychainAccess
+    - SwiftyJSON
+    - SWXMLHash
+  - SwiftyJSON (5.0.1)
+  - SWXMLHash (7.0.0)
+
+DEPENDENCIES:
+  - RockReportTool (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AWSAuthCore
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSMobileClient
+    - CocoaLumberjack
+    - CryptoSwift
+    - KeychainAccess
+    - SwiftyJSON
+    - SWXMLHash
+
+EXTERNAL SOURCES:
+  RockReportTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AWSAuthCore: d26bd130b49dc27373aa32c84c9de8f16c2f13e0
+  AWSCognitoIdentityProvider: 069cce018cd50df8139ea2ee9bf17f2aa84953fb
+  AWSCognitoIdentityProviderASF: 7f0612bfc44205e4371f89794ffb7a550319f57e
+  AWSCore: ac89c3ea1bb884823ff02907be828e38044ac4c0
+  AWSMobileClient: f1670732dcd613abe3badb35c91d8980e7bb1f08
+  CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
+  CryptoSwift: c4f2debceb38bf44c80659afe009f71e23e4a082
+  KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
+  RockReportTool: ff9a462e41342a7792ebee17b330e2ebf4b26811
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  SWXMLHash: cf8682ebf12f124e77554d6a5f9170830626d99e
+
+PODFILE CHECKSUM: d3d4dc6150214c096fbf4c5e9104d9503d569acd
+
+COCOAPODS: 1.11.2
