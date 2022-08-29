@@ -1776,6 +1776,8 @@
 		1D415174C8A7D70958D75872CA7DBEDE /* RockReportTool */ = {
 			isa = PBXGroup;
 			children = (
+				65924F2128B7C954003E3EE1 /* RokuLoadingUtil.swift */,
+				65924F2228B7C954003E3EE1 /* RokuLoadingUtil.xib */,
 				65924F2728B7D06A003E3EE1 /* Fonts */,
 				65924F2028B7C954003E3EE1 /* BaseUI */,
 				65924F1B28B7C947003E3EE1 /* Extensions */,
@@ -1942,8 +1944,6 @@
 		65924F2028B7C954003E3EE1 /* BaseUI */ = {
 			isa = PBXGroup;
 			children = (
-				65924F2128B7C954003E3EE1 /* RokuLoadingUtil.swift */,
-				65924F2228B7C954003E3EE1 /* RokuLoadingUtil.xib */,
 			);
 			path = BaseUI;
 			sourceTree = "<group>";
