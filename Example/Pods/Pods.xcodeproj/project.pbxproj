@@ -1778,7 +1778,6 @@
 			children = (
 				65924F2728B7D06A003E3EE1 /* Fonts */,
 				65924F2028B7C954003E3EE1 /* BaseUI */,
-				65924F1E28B7C953003E3EE1 /* Fonts */,
 				65924F1B28B7C947003E3EE1 /* Extensions */,
 				C5B55DBAD0CCAA1565382AD98C8DA216 /* Assets.xcassets */,
 				7E48AF766DA18516C9E632028D9467D4 /* IssuePayload.swift */,
@@ -1938,21 +1937,6 @@
 				65924F1C28B7C947003E3EE1 /* UIFont+Extension.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		65924F1E28B7C953003E3EE1 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				65924F1F28B7C953003E3EE1 /* RokuDefaultFonts */,
-			);
-			path = Fonts;
-			sourceTree = "<group>";
-		};
-		65924F1F28B7C953003E3EE1 /* RokuDefaultFonts */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = RokuDefaultFonts;
 			sourceTree = "<group>";
 		};
 		65924F2028B7C954003E3EE1 /* BaseUI */ = {
