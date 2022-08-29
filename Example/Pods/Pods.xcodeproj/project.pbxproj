@@ -207,14 +207,14 @@
 		640617ED2EA8CC4739D7DD65912C7C0D /* RSA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D8FE2EDBBA2995E7DCE2CD383BD6DC /* RSA.swift */; };
 		6588F68E0AF05684FB65BA57958A1E10 /* AWSMobileClientXCF-Mixed-Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C14E719044D7812B6BBF015B9967F6A /* AWSMobileClientXCF-Mixed-Swift.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		65924F1D28B7C947003E3EE1 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65924F1C28B7C947003E3EE1 /* UIFont+Extension.swift */; };
-		65924F2328B7C954003E3EE1 /* RokuLoadingUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65924F2128B7C954003E3EE1 /* RokuLoadingUtil.swift */; };
-		65924F2428B7C954003E3EE1 /* RokuLoadingUtil.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65924F2228B7C954003E3EE1 /* RokuLoadingUtil.xib */; };
 		65924F2628B7CB71003E3EE1 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65924F2528B7CB71003E3EE1 /* UIColor+Extension.swift */; };
 		65924F2E28B7D095003E3EE1 /* Gotham-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 65924F2928B7D095003E3EE1 /* Gotham-Light.otf */; };
 		65924F2F28B7D095003E3EE1 /* Gotham-Book-Lat.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65924F2A28B7D095003E3EE1 /* Gotham-Book-Lat.ttf */; };
 		65924F3028B7D095003E3EE1 /* Gotham-Bold-Lat.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65924F2B28B7D095003E3EE1 /* Gotham-Bold-Lat.ttf */; };
 		65924F3128B7D095003E3EE1 /* Gotham-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 65924F2C28B7D095003E3EE1 /* Gotham-BookItalic.otf */; };
 		65924F3228B7D095003E3EE1 /* Gotham-Medium-Lat.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65924F2D28B7D095003E3EE1 /* Gotham-Medium-Lat.ttf */; };
+		65AFAFA128BD098A00E37C11 /* RokuLoadingUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AFAF9F28BD098A00E37C11 /* RokuLoadingUtil.swift */; };
+		65AFAFA228BD098A00E37C11 /* RokuLoadingUtil.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65AFAFA028BD098A00E37C11 /* RokuLoadingUtil.xib */; };
 		65D763052DDCCC2D885873B36927BA19 /* AWSXMLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = ACA36207A546480505C2ECC9AEE617DC /* AWSXMLDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		662568ECCED78D68B9F800F1BAE02C0C /* AWSMobileClientUserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AC8DC330A7652F2F38450B62941FF4 /* AWSMobileClientUserDetails.swift */; };
 		66B8F8E3D030F11E59D5DF6940C97051 /* AWSSTSService.h in Headers */ = {isa = PBXBuildFile; fileRef = 341BCEBC60777BEF280C977873A1775F /* AWSSTSService.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1021,14 +1021,14 @@
 		64BA32C5C64757F1DEAB83AA6ACBFB83 /* AWSDDLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSDDLogMacros.h; path = AWSCore/Logging/AWSDDLogMacros.h; sourceTree = "<group>"; };
 		64FF9C658E3481CC4ABDDE43146FBA1F /* AWSCognitoIdentityProviderModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AWSCognitoIdentityProviderModel.m; path = AWSCognitoIdentityProvider/AWSCognitoIdentityProviderModel.m; sourceTree = "<group>"; };
 		65924F1C28B7C947003E3EE1 /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
-		65924F2128B7C954003E3EE1 /* RokuLoadingUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RokuLoadingUtil.swift; sourceTree = "<group>"; };
-		65924F2228B7C954003E3EE1 /* RokuLoadingUtil.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RokuLoadingUtil.xib; sourceTree = "<group>"; };
 		65924F2528B7CB71003E3EE1 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "../RockReportTool/Classes/UIColor+Extension.swift"; sourceTree = "<group>"; };
 		65924F2928B7D095003E3EE1 /* Gotham-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Light.otf"; sourceTree = "<group>"; };
 		65924F2A28B7D095003E3EE1 /* Gotham-Book-Lat.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Book-Lat.ttf"; sourceTree = "<group>"; };
 		65924F2B28B7D095003E3EE1 /* Gotham-Bold-Lat.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Bold-Lat.ttf"; sourceTree = "<group>"; };
 		65924F2C28B7D095003E3EE1 /* Gotham-BookItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-BookItalic.otf"; sourceTree = "<group>"; };
 		65924F2D28B7D095003E3EE1 /* Gotham-Medium-Lat.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Medium-Lat.ttf"; sourceTree = "<group>"; };
+		65AFAF9F28BD098A00E37C11 /* RokuLoadingUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RokuLoadingUtil.swift; path = RockReportTool/Classes/RokuLoadingUtil.swift; sourceTree = "<group>"; };
+		65AFAFA028BD098A00E37C11 /* RokuLoadingUtil.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RokuLoadingUtil.xib; path = RockReportTool/Classes/RokuLoadingUtil.xib; sourceTree = "<group>"; };
 		65B9060C76867C3475AACCA901DD9225 /* Pods-RockReportTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RockReportTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		664F142005818AD59758DF50E825CBE4 /* Double+XMLDeserialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Double+XMLDeserialization.swift"; path = "Source/DeserializationTypes/Double+XMLDeserialization.swift"; sourceTree = "<group>"; };
 		6680A04C5FE84974446950B420B432A8 /* AWSCognitoIdentityProviderResources.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSCognitoIdentityProviderResources.h; path = AWSCognitoIdentityProvider/AWSCognitoIdentityProviderResources.h; sourceTree = "<group>"; };
@@ -1776,8 +1776,8 @@
 		1D415174C8A7D70958D75872CA7DBEDE /* RockReportTool */ = {
 			isa = PBXGroup;
 			children = (
-				65924F2128B7C954003E3EE1 /* RokuLoadingUtil.swift */,
-				65924F2228B7C954003E3EE1 /* RokuLoadingUtil.xib */,
+				65AFAF9F28BD098A00E37C11 /* RokuLoadingUtil.swift */,
+				65AFAFA028BD098A00E37C11 /* RokuLoadingUtil.xib */,
 				65924F2728B7D06A003E3EE1 /* Fonts */,
 				65924F2028B7C954003E3EE1 /* BaseUI */,
 				65924F1B28B7C947003E3EE1 /* Extensions */,
@@ -3055,7 +3055,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65924F2E28B7D095003E3EE1 /* Gotham-Light.otf in Resources */,
-				65924F2428B7C954003E3EE1 /* RokuLoadingUtil.xib in Resources */,
+				65AFAFA228BD098A00E37C11 /* RokuLoadingUtil.xib in Resources */,
 				65924F3128B7D095003E3EE1 /* Gotham-BookItalic.otf in Resources */,
 				A46F3291C8EB87E91005FB37F68E7A6E /* Assets.xcassets in Resources */,
 				65924F2F28B7D095003E3EE1 /* Gotham-Book-Lat.ttf in Resources */,
@@ -3356,7 +3356,6 @@
 				15CDDB6A3999166AEBD6A23A3C40425F /* IssueResponse.swift in Sources */,
 				B134588B9BB7E221E4EFF8EE341CF4B0 /* JSONWebToken.swift in Sources */,
 				707E00D5887E0ACDD422AC522496E907 /* MCSHeaderService.swift in Sources */,
-				65924F2328B7C954003E3EE1 /* RokuLoadingUtil.swift in Sources */,
 				BC74ABEF4A89E2FFD5787094D804D83F /* Network+Injection.swift in Sources */,
 				50303282925322FB02B7D6CAB988DE79 /* NetworkConstants.swift in Sources */,
 				E463EA53FDED9486A7964DADA98B961F /* OAuthToken.swift in Sources */,
@@ -3381,6 +3380,7 @@
 				468D71C40CD23C03CF65B8A95D67E6E5 /* Task+WhenAny.swift in Sources */,
 				1CD6BD19FD5AB6FE19188FDBADF5774E /* TaskCompletionSource.swift in Sources */,
 				B09111D1459DA281F0EA8BE4EDBD0B21 /* TimedURLService.swift in Sources */,
+				65AFAFA128BD098A00E37C11 /* RokuLoadingUtil.swift in Sources */,
 				07136005DCADC974781FD3FFC2E04717 /* TraceService.swift in Sources */,
 				8FB49C33DF23826B3967D2F3D0BFA6DF /* URLMemCache.swift in Sources */,
 				F9155AAC27FE939C5F7650A61A6FD2E4 /* URLRequest.swift in Sources */,
