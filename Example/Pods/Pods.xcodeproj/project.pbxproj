@@ -215,6 +215,7 @@
 		65AFAFA128BD098A00E37C11 /* RokuLoadingUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AFAF9F28BD098A00E37C11 /* RokuLoadingUtil.swift */; };
 		65AFAFA228BD098A00E37C11 /* RokuLoadingUtil.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65AFAFA028BD098A00E37C11 /* RokuLoadingUtil.xib */; };
 		65AFAFA428BD0C7000E37C11 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AFAFA328BD0C7000E37C11 /* UIFont+Extension.swift */; };
+		65AFAFA828BD115400E37C11 /* ReportToolIsseuClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AFAFA728BD115400E37C11 /* ReportToolIsseuClient.swift */; };
 		65D763052DDCCC2D885873B36927BA19 /* AWSXMLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = ACA36207A546480505C2ECC9AEE617DC /* AWSXMLDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		662568ECCED78D68B9F800F1BAE02C0C /* AWSMobileClientUserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AC8DC330A7652F2F38450B62941FF4 /* AWSMobileClientUserDetails.swift */; };
 		66B8F8E3D030F11E59D5DF6940C97051 /* AWSSTSService.h in Headers */ = {isa = PBXBuildFile; fileRef = 341BCEBC60777BEF280C977873A1775F /* AWSSTSService.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -317,7 +318,6 @@
 		8E4E366B1B8E24C802906C9CCC16DFBB /* Square Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C44CCC1FC6293D76E98190C677D9AF /* Square Root.swift */; };
 		8EB1D36E753184643B273F62F85935EB /* AWSCredentialsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94D5063DE6F3C9C3890B925C3626705 /* AWSCredentialsProvider.swift */; };
 		8F35E5F3359BBCD8750E86326D359138 /* NSArray+AWSMTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF5B20FF0E2C7F788B145538B2BE7D9 /* NSArray+AWSMTLManipulationAdditions.m */; };
-		8F703A1F30AD5F23EE721D2E820A5ED7 /* ReportToolIsseuClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91A6C5EDECC7D420B75FDAA1726788D /* ReportToolIsseuClient.swift */; };
 		8F73ECD186C2D48DE165790C29F54665 /* DDAssert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9EA2F57FD18E116301CA8ACFD06CF5 /* DDAssert.swift */; };
 		8F8F96140A1CB9E1982E13C0F155F6A5 /* AWSDDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D33A6199EB9EDCAD2875F296AC40202 /* AWSDDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8FB49C33DF23826B3967D2F3D0BFA6DF /* URLMemCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927A331C31B2470236183611B17835AC /* URLMemCache.swift */; };
@@ -1029,6 +1029,7 @@
 		65AFAF9F28BD098A00E37C11 /* RokuLoadingUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RokuLoadingUtil.swift; path = RockReportTool/Classes/RokuLoadingUtil.swift; sourceTree = "<group>"; };
 		65AFAFA028BD098A00E37C11 /* RokuLoadingUtil.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RokuLoadingUtil.xib; path = RockReportTool/Classes/RokuLoadingUtil.xib; sourceTree = "<group>"; };
 		65AFAFA328BD0C7000E37C11 /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIFont+Extension.swift"; path = "../RockReportTool/Classes/UIFont+Extension.swift"; sourceTree = "<group>"; };
+		65AFAFA728BD115400E37C11 /* ReportToolIsseuClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReportToolIsseuClient.swift; path = RockReportTool/Classes/ReportToolIsseuClient.swift; sourceTree = "<group>"; };
 		65B9060C76867C3475AACCA901DD9225 /* Pods-RockReportTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RockReportTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		664F142005818AD59758DF50E825CBE4 /* Double+XMLDeserialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Double+XMLDeserialization.swift"; path = "Source/DeserializationTypes/Double+XMLDeserialization.swift"; sourceTree = "<group>"; };
 		6680A04C5FE84974446950B420B432A8 /* AWSCognitoIdentityProviderResources.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSCognitoIdentityProviderResources.h; path = AWSCognitoIdentityProvider/AWSCognitoIdentityProviderResources.h; sourceTree = "<group>"; };
@@ -1280,7 +1281,6 @@
 		D85E8A15EF67AEBF5A6EE141A9D6CD49 /* AWSCognitoIdentityProviderASF-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AWSCognitoIdentityProviderASF-prefix.pch"; sourceTree = "<group>"; };
 		D8A493B5CA4FFEBFB6F33D08D00A19DD /* SWXMLHash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWXMLHash.release.xcconfig; sourceTree = "<group>"; };
 		D8E8903BEC3B3A3734CCC78A1D6BAC41 /* Scrypt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Scrypt.swift; path = Sources/CryptoSwift/Scrypt.swift; sourceTree = "<group>"; };
-		D91A6C5EDECC7D420B75FDAA1726788D /* ReportToolIsseuClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReportToolIsseuClient.swift; path = RockReportTool/Classes/ReportToolIsseuClient.swift; sourceTree = "<group>"; };
 		D9AC0C705EC84AF37DE41726A1A01A7E /* NetworkConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
 		D9DABE27D6BE4BD419F686B627374DE3 /* AWSCognitoIdentityModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AWSCognitoIdentityModel.h; path = AWSCore/CognitoIdentity/AWSCognitoIdentityModel.h; sourceTree = "<group>"; };
 		DB0AAEC11EDE60030683565B564F8732 /* AWSMobileClient+AWSIdentityProviderManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AWSMobileClient+AWSIdentityProviderManager.swift"; path = "AWSAuthSDK/Sources/AWSMobileClient/Helpers/IdentityPoolHelper/AWSMobileClient+AWSIdentityProviderManager.swift"; sourceTree = "<group>"; };
@@ -1776,6 +1776,7 @@
 		1D415174C8A7D70958D75872CA7DBEDE /* RockReportTool */ = {
 			isa = PBXGroup;
 			children = (
+				65AFAFA728BD115400E37C11 /* ReportToolIsseuClient.swift */,
 				65AFAF9F28BD098A00E37C11 /* RokuLoadingUtil.swift */,
 				65AFAFA028BD098A00E37C11 /* RokuLoadingUtil.xib */,
 				65924F2728B7D06A003E3EE1 /* Fonts */,
@@ -1787,7 +1788,6 @@
 				681D8D15D225718CFF8A6ED7AED1EA45 /* IssueResponse.swift */,
 				DEAFFCFD4111C5B3AA6B927737377BAF /* ReportingEvent.swift */,
 				1969555CB47DFC820FDB1B53C3F95F63 /* ReportToolAlertDialogType.swift */,
-				D91A6C5EDECC7D420B75FDAA1726788D /* ReportToolIsseuClient.swift */,
 				582A128C4F18B47ACA711FBF89805E62 /* ReportToolMediaType.swift */,
 				88803AD551A7E5F5197014C95F426B60 /* ReportToolViewLogic.swift */,
 				F5FAEC9C3B31E0EA17B12153ACC2183D /* RokuBaseViewController.swift */,
@@ -3351,6 +3351,7 @@
 				4EB10C4557A5CDFE8C979068A3355E40 /* Executor.swift in Sources */,
 				65AFAFA428BD0C7000E37C11 /* UIFont+Extension.swift in Sources */,
 				09BDA4241BD7BDF2D7F99BF3277D451B /* HeadersValidator.swift in Sources */,
+				65AFAFA828BD115400E37C11 /* ReportToolIsseuClient.swift in Sources */,
 				0DC7FF4D491A322E95A9D30EC6C1D89F /* IssuePayload.swift in Sources */,
 				25840D37EF29B161BCA7C3D03B211814 /* IssueReportMediaButton.swift in Sources */,
 				15CDDB6A3999166AEBD6A23A3C40425F /* IssueResponse.swift in Sources */,
@@ -3361,7 +3362,6 @@
 				E463EA53FDED9486A7964DADA98B961F /* OAuthToken.swift in Sources */,
 				3890C81954EA3B099A19C2484B72FD52 /* ReportingEvent.swift in Sources */,
 				DC3A20AC109AC5A74432F06F20990959 /* ReportToolAlertDialogType.swift in Sources */,
-				8F703A1F30AD5F23EE721D2E820A5ED7 /* ReportToolIsseuClient.swift in Sources */,
 				8136985C2E0496A8865CA2873B8D609F /* ReportToolMediaType.swift in Sources */,
 				41E0F876C235F035479E388A197B3D62 /* ReportToolViewLogic.swift in Sources */,
 				B1BA84CCBE857FF946C29A92CE9F1054 /* Resolver.swift in Sources */,
