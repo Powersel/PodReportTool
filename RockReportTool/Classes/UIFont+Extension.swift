@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UIFont {
+public extension UIFont {
 
     private class BundleLocatorClass {}
 
@@ -67,5 +67,4 @@ public extension UIFont {
             print("UIFont+:  Failed to register font - register graphics font failed - this font may have already been registered in the main bundle.")
         }
     }
-
 }
